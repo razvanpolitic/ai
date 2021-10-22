@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="icon" type="image/png" href="img/branding/LOGO_450x200.png"/>
+    <title>Robot and human interaction - AI&T Magazine</title>
+</head>
+
+<body>
+    <div class="topbar">
+        <header>
+            <a href="index.html" class="logo"><img src="img/branding/LOGO_450x200.png" height="80px"></a>
+
+            <input type="checkbox" id="menu-btn" class="menu-btn">
+            <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
+            <ul class="nav-links" style="padding-bottom: 1%;">
+                <li class="nav-link"><a href="index.html">Home</a></li>
+                <li class="nav-link"><a href="articles.html">Articles</a></li>
+                <li class="nav-link"><a href="https://en.wikipedia.org/wiki/History_of_artificial_intelligence">History</a></li>
+                <li class="nav-link"><a
+                        href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/">News</a>
+                </li>
+                <li class="nav-link"><a href="index.html#tools">Tools</a></li>
+                <li class="nav-link"><a href="index.html#qa">Q&A</a></li>
+                <li class="nav-link"><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <div class="page-content">
+        <h1 class="widget-title">Robot and human interaction</h1>
+        <div id="container">
+            <div id="floated">
+                <img src="img/articles/robots-humans.jpg" style="width: 100%;">
+            </div>
+            <p><h3>Human-Robot Interaction and Computer Vision: emotion recognition and expression in social robots</h3><br>
+                <h4>Facial Expressions</h4><br>
+                A natural way to observe emotions is the analysis of facial expressions.. Conventional facial emotion
+                recognition systems aim to detect the face region in images and to compute geometric and appearance
+                features, which are used to train machine learning algorithms. Geometric features are obtained by
+                identifying facial landmarks and by computing their reciprocal positions and action units, while
+                appearance-based features are based on texture information.
+                When dealing with video-clips, also the temporal components of data can be exploited. In traditional
+                facial emotion recognition, this is usually accomplished by including in the features vector information
+                about landmarks displacement between frames. In deep learning approaches, temporal information is
+                handled by means of specific architectures and layers, such as recurrent neural network and long-short
+                term memory.
+                In the context of Human-Robot Interaction, facial emotion recognition systems has been performed through
+                conventional and deep learning approaches.
+                <br>&nbsp;<h4>Thermal Facial Images</h4><br>
+                Changes in the affective state produce the redistribution of the blood in the vessels, due to
+                vasodilatation/vasoconstriction and emotional sweating phenomena. Infra-red thermal cameras can detect
+                these changes, since they cause variations in skin temperature. Therefore, thermal images could be used
+                to perform emotions recognition. Usually, this is done by considering temperature variations of specific
+                regions of interest , e.g., tip of the nose, forehead, orbicularis oculi, and cheeks.
+                <br>&nbsp;<h4>Body Pose and Kinematics</h4><br>
+                As facial expressions, body posture, movements, and gestures are natural and intuitive ways to infer the
+                affective state of a person. Emotional body gesture recognition has been widely explored. In order to
+                take advantage of information conveyed by static or dynamic cues, an emotional body gesture recognition
+                system has to model the body position from input signals, usually RGB data, depth maps, or their
+                combination. The first step of the canonical recognition pipeline is the detection of human bodies.
+                Then, the pose of the body has to be estimated, by fitting an a priori defined model, typically a
+                skeleton, over the body region. This task could be performed either by solving an inverse kinematic
+                problem or by using deep learning, if a large amount of skeletonized data are available. Features could
+                include absolute or reciprocal positions and orientations of limbs, as well as movement information such
+                as speed or acceleration. Classification can be performed either by traditional machine learning or deep
+                learning.</p>
+        </div>
+    </div>
+
+    <footer style="background: #153354; padding-bottom: 5%;">
+        <div class="inner-footer">
+            <div class="footer-items">
+                <img src="img/branding/LOGO_expanded_white_500x90.png" width="100%">
+                <p
+                    style="font-family:Raleway,sans-serif; text-align:center; font-size:x-small; color:rgb(150, 150, 150)">
+                    by Razvan Politic</p>
+            </div>
+            <div class="footer-items">
+                <h3>Quick links</h3>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="articles.html">
+                        <li>Articles</li>
+                    </a>
+                    <a href="https://en.wikipedia.org/wiki/History_of_artificial_intelligence">
+                        <li>History</li>
+                    </a>
+                    <a href="#">
+                        <li>News</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="footer-items">
+                <h3>Further Learning</h3>
+                <ul>
+                    <a href="https://ai.google/education/">
+                        <li>Google AI Education</li>
+                    </a>
+                    <a href="https://www.jigsawacademy.com/the-best-way-to-learn-ai-and-ml/">
+                        <li>Why learn AI?</li>
+                    </a>
+                    <a href="https://www.mygreatlearning.com/artificial-intelligence/courses?gl_blog_id=11483&arz=1">
+                        <li>AI Courses</li>
+                    </a>
+                    <a href="https://www.devteam.space/blog/how-to-create-artificial-intelligence-software/">
+                        <li>How to create an AI solution</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="footer-items">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Ringvej Syd 104, 8260 Viby J, Denmark</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>60.90.17.08</li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i>admin@razvanpolitic.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Copyright &copy; 2021 Artificial Intelligence & Tech Magazine by Razvan Politic
+        </div>
+    </footer>
+</body>
+
+</html>
